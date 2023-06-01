@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+			table{
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			text-align: center;
+			padding: 8px;
+		}
+		/*Pintar la tabla filas intercaladas, even elige la fila par a pintar y odd las filas impares*/
+		tr:nth-child(even){
+			background-color: #D6EEEE; 
+		}
+
+	</style>
+	<link rel="stylesheet" href="css\Estilos.css">
+
+	<title>Nuestros Hoteles</title>
+
+</head>
+
+
+<body>
+
+
+	<div class="banner">	
+		<center> <!--Centrar -->
+
+			<img src="imagenes\hotel.png" width="90%" height="200" alt="Banner hoteles decameron"> <!-- No necesita cerrarse-->
+
+		</center>
+	</div>
+
+
+	<div class="contenidoWeb" align="center">
+
+		<div class="contenidoMenu">
+			<hr> <!--Linea que atravieza toda la pantalla -->
+				(<a href="Inicio.html" target="_blank"> INICIO</a> - <a href="QuienesSomos.html"> QUIENES SOMOS</a> - <a href="NuestrosHoteles.html"> NUESTROS HOTELES</a> - <a href="Eventos.html"> EVENTOS</a> - <a href="Contactenos.html"> CONTACTENOS</a>) <!-- hipervínculo a la pantalla-->
+			<hr>
+		</div>
+			
+		<br/><br/>
+
+		<div>
+			<h1 style="color: darkblue;" >Disfruta de tus vacaciones en los mejores destinos</h1>
+			<table style="width:100%" border="5">
+
+				<tr><!--Fila 1-->
+					<th>País</th> <!--Titulo de la Columna1-->
+					<th>Visitar</th> <!--Titulo de la Columna1-->
+					
+					
+				</tr>
+				<tr><!--Fila 2-->
+					<td align="center">Colombia</td>
+					<td align="center"><a href="https://www.decameron.com/es/otr-destinos/colombia/isla-de-san-andres/decameron-aquarium" target="_blank">Decameron Aquarium</a></td>
+				</tr>
+				<tr><!--Fila 3-->
+					<td align="center">Mexico</td>
+					<td align="center"><a href="https://www.decameron.com/es/otr-destinos/mexico/rincon-de-guayabitos/decameron-la-marina" target="_blank">Decameron La Marina</a></td>
+				</tr>
+				<tr><!--Fila 4-->
+					<td align="center">Panamá</td>
+					<td align="center"><a href="https://www.decameron.com/es/otr-destinos/panama/farallon/royal-decameron-panama" target="_blank">Decameron Farallón</a></td>
+				</tr>
+				<tr><!--Fila 4-->
+					<td align="center">Colombia - Amazonas</td>
+					<td align="center"><a href="https://www.decameron.com/es/otr-destinos/colombia/leticia/decalodge-ticuna" target="_blank">Decameron Decalodge Ticuna</a></td>
+				</tr>
+			</table>
+			<br><br><br>
+	 	</div>
+	 	<div>
+	 		<!--Traer recursos de otras web -->
+		<img src="https://cdn.pixabay.com/photo/2014/08/30/07/43/caribbean-431450_1280.jpg" width="70%">
+	 	</div>
+
+
+	 	<br><br><br>
+
+	</div>
+
+
+</body>
+<footer>
+	 <div class="contenidoWeb" align="justify">
+
+		    
+	  	<div class="contenidoMenu">
+			<form name="formularioEmail" id="formularioEmail"  action="ContactenosJS.html"><br>
+
+				Dejanos tu correo electronico y no te pierdas nuestras promociones
+				<input type="text" name="email">
+				<input type="submit" name="enviar"><br>
+							
+			</form>
+		</div>
+
+			
+		<div style="display: flex;">
+			<div>
+				<ul>
+					<li><a href="Inicio.html">Inicio</a></li>
+					<li><a href="Eventos.html">Eventos</a></li>
+					<li><a href="Contactenos.html">Contacto</a></li>
+				</ul>
+				
+			</div>
+
+			<div class="mostrarImagenes" style="width: 70%;">
+				<img src="imagenes\multivacaciones.png" width="300" align="center">
+			</div>
+			<div class="col-6 col-md">
+			    <h1 class="text-white">#ViajerosCaribe</h1>
+			    <p class="text-white">Haz parte de nuestro grupo de viajeros con el hashtag #ViajerosCaribe. 
+			     Suscribete y recibe nuestras promociones al instante.</p>
+		    </div>
+		<div style='float: right;'>
+			<a href="https://www.facebook.com/" target="_blank">
+		  		<img src="imagenes\facebook.png" alt="Facebook" width="20%" >
+			</a>
+
+			<a href="https://twitter.com/" target="_blank">
+		  	<img src="imagenes\twitter.png" alt="Twitter" width="20%">
+			</a>
+
+			<a href="https://www.instagram.com/" target="_blank">
+		  		<img src="imagenes\instagram.png" alt="Instagram" width="20%">
+			</a>
+			<p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+
+	 	</div>
+	</div>
+
+
+</footer>
+
+</html>

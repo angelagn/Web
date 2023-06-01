@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		.boton{
+			background-color: #1abc9c;
+			background-image: linear-gradient(to bottom, #33CAFF, #087399);
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px; /*redondea el botón*/
+			text-decoration: none;
+		}
+
+	</style>
+	<link rel="stylesheet" href="css\Estilos.css">
+
+	<title>Contactenos</title>
+
+
+</head>
+
+
+<body>
+
+
+	<div class="banner">	
+		<center> <!--Centrar -->
+
+			<img src="imagenes\hotel.png" width="90%" height="200" alt="Banner hoteles decameron"> <!-- No necesita cerrarse-->
+			
+			
+
+		</center>
+	</div>
+
+
+	<div class="contenidoWeb" align="center">
+		<div class="contenidoMenu">
+				<hr> <!--Linea que atravieza toda la pantalla -->
+					(<a href="Inicio.html" target="_blank"> INICIO</a> - <a href="QuienesSomos.html"> QUIENES SOMOS</a> - <a href="NuestrosHoteles.html"> NUESTROS HOTELES</a> - <a href="Eventos.html"> EVENTOS</a> - <a href="Contactenos.html"> CONTACTENOS</a>) <!-- hipervínculo a la pantalla-->
+				<hr>
+			</div>
+			<br/><br/>
+		<div>
+		<div class="center">
+		<h1 style="color: darkblue;" >Contacta con nosotros y recibirás un masaje <span style="color: red; font-size: 2em;">GRATIS!</span></h1>
+
+		</div>
+		<img src="https://cdn.pixabay.com/photo/2018/03/30/02/11/massage-therapy-3274226_1280.jpg" style="flex: 2;"><br><br><br>
+		
+
+		<div>
+			<div style="display: flex;">
+				<form align="justify" margin="20px" action="ContactenosJS.html" method="get">
+				    <fieldset>
+					    <legend>Quiero más información</legend>
+					    <label for="nombreCliente">Nombre:</label><br>
+					    <input type="text" name="nombreCliente" value=""><br>
+					    <label for="correoCliente">Correo:</label><br>
+					    <input type="text" name="correoCliente" value=""><br>
+					    <label for="phone">Teléfono:</label><br>
+					    <input type="tel" name="phone" value="" required><br>
+					    <label for="edadCliente">Edad:</label><br>
+					    <input type="text" name="edadCliente" value=""><br>
+					    <label for="generoCliente">Género:</label><br>
+					    <select id="state" name="state">
+					    <option value="">Seleccione</option>
+					    <option value="c">Femenino</option>
+					    <option value="s">Masculino</option>
+					    </select><br><br>
+					   	<p>Mensaje:</p><br><br>
+					    <textarea cols="30" rows="5"></textarea><br>
+					    <label for="aceptoTerminos">Acepto términos y condiciones:</label><br>
+					    <input type="checkbox" name="aceptoTerminos"><br><br>
+					    <input class="boton" type="submit" value="Enviar">
+					      
+						
+
+				    </fieldset>
+				</form>
+
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/17/ab/6b/b0/certificado-de-excelencia.jpg" style="flex: 1;" width="80%" height="500">
+				<br><br><br>
+	  
+			</div>
+		</div>
+
+
+			<br><br><br>
+
+
+
+	
+
+
+</body>
+<footer>
+	 <div class="contenidoWeb">
+
+		    
+	  	<div class="contenidoMenu">
+			<form name="formularioEmail" id="formularioEmail"  action="ContactenosJS.html"><br>
+
+				Dejanos tu correo electronico y no te pierdas nuestras promociones
+				<input type="text" name="email">
+				<input type="submit" name="enviar"><br>
+							
+			</form>
+		</div>
+
+			
+		<div style="display: flex;">
+			<div>
+				<ul>
+					<li><a href="Inicio.html">Inicio</a></li>
+					<li><a href="Eventos.html">Eventos</a></li>
+					<li><a href="Contactenos.html">Contacto</a></li>
+				</ul>
+				
+			</div>
+
+			<div class="mostrarImagenes" style="width: 70%;">
+				<img src="imagenes\multivacaciones.png" width="300" align="center">
+			</div>
+			<div class="col-6 col-md">
+			    <h1 class="text-white">#ViajerosCaribe</h1>
+			    <p class="text-white">Haz parte de nuestro grupo de viajeros con el hashtag #ViajerosCaribe. 
+			     Suscribete y recibe nuestras promociones al instante.</p>
+		    </div>
+		<div style='float: right;'>
+			<a href="https://www.facebook.com/" target="_blank">
+		  		<img src="imagenes\facebook.png" alt="Facebook" width="20%" >
+			</a>
+
+			<a href="https://twitter.com/"  target="_blank">
+		  	<img src="imagenes\twitter.png" alt="Twitter" width="20%">
+			</a>
+
+			<a href="https://www.instagram.com/" target="_blank">
+		  		<img src="imagenes\instagram.png" alt="Instagram" width="20%">
+			</a>
+			<p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+
+	 	</div>
+	</div>
+
+
+</footer>
+
+</html>

@@ -1,0 +1,59 @@
+		.banner{
+			background-color: darkblue;
+			width: 100%;
+			height: 50%;
+			font-family: Times;
+			justify-content: !important;
+		}
+
+		.contenidoWeb{
+			background-color: ghostwhite;
+			color: gray;
+			width: 100%;
+			height: 40%;
+			justify-content: rigth;
+			
+
+		}
+
+		.contenidoMenu{
+			background-color: #33CAFF;
+			color: white;
+			width: 100%;
+			height: 60px;
+			justify-content: center;
+			align-items: center;
+
+		};
+		.alinearDerecha {
+			float: : right; <!--Alineacion-->
+			margin-right: 10px;
+  			
+		}
+		.mostrarImagenes {
+		  width: 100%;
+	
+		  overflow: auto;
+		}
+
+		.mostrarImagenes img {
+		  width: 100%;
+		  height: 80%;
+	
+		  animation: slide 5s infinite;
+		}
+
+		@keyframes slide {
+		  0% { transform: translateX(0); }
+		  50% { transform: translateX(50px); }
+		  100% { transform: translateX(0); }
+		 
+		}
+		.icono:hover{ /*Rotar imagen al pasar el mouse*/
+			transform: rotate(360deg);
+			transition: transform 1s ease-in-out;
+
+
+		}
+
+		

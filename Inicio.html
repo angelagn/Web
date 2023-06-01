@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+
+	</style>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css\Estilos.css">
+
+	<title>Inicio</title>
+
+
+</head>
+
+
+<body>
+
+
+	<div class="banner">	
+		<center> <!--Centrar -->
+
+			<img src="imagenes\hotel.png" width="90%" height="200" alt="Banner hoteles decameron"> <!-- No necesita cerrarse-->
+			
+			
+
+		</center>
+	</div>
+
+
+	<div class="contenidoWeb" align="center">
+		<div class="contenidoMenu">
+				<hr> <!--Linea que atravieza toda la pantalla -->
+					(<a href="Inicio.html" target="_blank"> INICIO</a> - <a href="QuienesSomos.html"> QUIENES SOMOS</a> - <a href="NuestrosHoteles.html"> NUESTROS HOTELES</a> - <a href="Eventos.html"> EVENTOS</a> - <a href="Contactenos.html"> CONTACTENOS</a>) <!-- hipervínculo a la pantalla-->
+				<hr>
+			</div>
+			<br/><br/>
+		<div>
+		<div class="center">
+		<h1 style="color: darkblue;" >¡Bienvenido al paraíso tropical del Caribe!</h1>
+		</div>
+		<div align="center">
+		<p>
+			Nos complace presentarte nuestro nuevo y exquisito hotel, donde el lujo se fusiona con la belleza natural de estas tierras bañadas por el sol. Sumérgete en una experiencia inolvidable mientras descubres la magia de nuestras playas de arena blanca, aguas cristalinas y exuberante vegetación.
+			En nuestro hotel en el Caribe, te invitamos a dejarte llevar por la tranquilidad y el encanto que rodean cada rincón. Desde el momento en que pises nuestro vestíbulo, serás recibido con una cálida sonrisa y un servicio excepcional que te hará sentir como en casa. Nuestro equipo altamente capacitado está dedicado a brindarte una estadía inigualable, donde cada detalle es cuidadosamente diseñado para satisfacer tus necesidades y superar tus expectativas
+		</p>
+		</div>
+		<br/>
+
+
+		<!--Traer recursos de otras web -->
+		<img src="https://media.istockphoto.com/id/464616573/es/foto/tronco-bay-st-john.jpg?s=612x612&w=0&k=20&c=yB-ymb03cjGU0x6fl9n7e4_tVk0FM6vBes1KhZ5FSeU=" width="70%">
+	</div>
+
+
+	<div style="display: flex;">
+	  	<div style="flex: 2;">
+	    	<fieldset><!--Linea que bordea el formulario-->
+	      		<legend>Elige tus vacaciones aquí</legend> <!--Leyenda conectada con la linea-->
+	      		<form align="justify" margin="20px" action="ContactenosJS.html" method="get">
+			        <label for="nombreCliente">Introducir nombre:</label><br/><!--br para salto de linea-->
+			        <input type="text" name="nombreCliente" value=""><br><!--el value queda vacio para guardar cualquier dato-->
+			        <label for="CantidadHuespedes">Cantidad de huéspedes:</label><br/>
+			        <input type="text" name="CantidadHuespedes" value=""><br/>
+			        <label for="CiudadOrigen">Ciudad de origen:</label><br/>
+			        <input type="text" name="CiudadOrigen" value=""><br/>
+
+			        
+
+			        <h3>Tipo de alojamiento</h3>
+			        <label for="tipoAlojamiento">Pareja</label>
+			        <input type="radio" name="tipoAlojamiento" value="AlojamientoPareja"><br><!--Punto de selección-->
+			        <label for="tipoAlojamiento">Tres personas</label>
+			        <input type="radio" name="tipoAlojamiento" value="Alojamiento3personas"><br/>
+			        <label for="tipoAlojamiento">Maxi</label>
+			        <input type="radio" name="tipoAlojamiento" value="AlojamientoMaxi"><br/>
+
+			       
+					<h3>Servicios del Hotel</h3>
+					  
+					<input type="checkbox" id="piscina" name="servicios" value="piscina">
+					<label for="piscina">Piscina</label><br>
+					  
+					<input type="checkbox" id="playaPrivada" name="servicios" value="playaPrivada">
+					<label for="playaPrivada">Playa Privada</label><br>
+					  
+					<input type="checkbox" id="spa" name="servicios" value="spa">
+					<label for="spa">Spa</label><br>
+					  
+					<input type="checkbox" id="gimnasio" name="servicios" value="gimnasio">
+					<label for="gimnasio">Gimnasio</label><br>
+					  
+					<input type="checkbox" id="restaurantes" name="servicios" value="restaurantes">
+					<label for="restaurantes">Restaurantes</label><br>
+					  
+					<input type="checkbox" id="actividadesAcuaticas" name="servicios" value="actividadesAcuaticas">
+					<label for="actividadesAcuaticas">Actividades Acuáticas</label><br>
+					  
+					<input type="checkbox" id="servicioHabitaciones" name="servicios" value="servicioHabitaciones">
+					<label for="servicioHabitaciones">Servicio a Habitaciones</label><br>
+					  
+	
+					<label for="metodoPago">Método de Pago:</label><br>
+					<select id="metodoPago" name="metodoPago">
+					<option value="">Seleccione</option><br>
+					<option value="tarjeta">Tarjeta de Crédito</option>
+					<option value="bizum">Bizum</option>
+					<option value="transferencia">Transferencia Bancaria</option>
+					<br><br>
+						  
+					<input type="submit" name="Pulsar para enviar los datos"><!--boton de enviar-->
+			        <input type="reset" name="Pulsar para enviar los datos"><!--boton limpiar formulario-->
+					
+	      		</form>
+	    	</fieldset><br>
+	  	</div><br><br>
+
+
+	  	<div style="width: 70%; align-content: center;">
+	  		<h1>Para aquellos que buscan aventura.</h1>
+	  		<p>
+	  			Los servicios de hotel en el Caribe van más allá de la simple estadía. Muchos hoteles cuentan con hermosas playas privadas, donde los huéspedes pueden disfrutar del sol y las aguas cristalinas mientras se relajan en cómodas tumbonas. 
+	  		</p>
+	  		<div align="center">
+		  		<ul>
+					<h3>Deportes acuáticos</h3>
+					<a target="_blank">
+		  				<img class="icono" src="imagenes\icon1.png" alt="acuaticos">
+					</a>
+
+					<h3>Buceo</h3>
+					<a target="_blank">
+		  				<img class="icono" src="imagenes\buceo.png" alt="buceo">
+					</a>
+
+					<h3>Snorkel</h3>
+					<a target="_blank">
+		  				<img class="icono" src="imagenes\snorkel.png" alt="snorkel">
+					</a>
+
+					<h3>Parque acuático</h3>
+					<a target="_blank">
+		  				<img class="icono" src="imagenes\acuatico.png" alt="parqueacuatico">
+					</a>
+					
+				</ul>
+		
+			<a href="NuestrosHoteles.html">Más actividades aqui</a>
+
+	 	</div>
+	</div>		
+</div>
+</body>
+
+<footer>
+	 <div class="contenidoWeb">
+
+		    
+	  	<div class="contenidoMenu">
+			<form name="formularioEmail" id="formularioEmail"  action="ContactenosJS.html"><br>
+
+				Dejanos tu correo electronico y no te pierdas nuestras promociones
+				<input type="text" name="email">
+				<input type="submit" name="enviar"><br>
+							
+			</form>
+		</div>
+
+			
+		<div style="display: flex;">
+			<div>
+				<ul>
+					<li><a href="Inicio.html">Inicio</a></li>
+					<li><a href="Eventos.html">Eventos</a></li>
+					<li><a href="Contactenos.html">Contacto</a></li>
+				</ul>
+				
+			</div>
+
+			<div class="mostrarImagenes" style="width: 70%;">
+				<img src="imagenes\multivacaciones.png" width="300" align="center">
+			</div>
+			<div class="col-6 col-md">
+			    <h1 class="text-white">#ViajerosCaribe</h1>
+			    <p class="text-white">Haz parte de nuestro grupo de viajeros con el hashtag #ViajerosCaribe. 
+			     Suscribete y recibe nuestras promociones al instante.</p>
+		    </div>
+		<div style='float: right;'>
+			<a href="https://www.facebook.com/" target="_blank">
+		  		<img src="imagenes\facebook.png" alt="Facebook" width="20%" >
+			</a>
+
+			<a href="https://twitter.com/"  target="_blank">
+		  	<img src="imagenes\twitter.png" alt="Twitter" width="20%">
+			</a>
+
+			<a href="https://www.instagram.com/" target="_blank">
+		  		<img src="imagenes\instagram.png" alt="Instagram" width="20%">
+			</a>
+			<p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+
+	 	</div>
+	</div>
+</footer>
+</html>
